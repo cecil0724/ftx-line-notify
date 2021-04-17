@@ -71,9 +71,9 @@ class FtxClient:
 
 
 if __name__ == "__main__":
-    LINE_API_KEY = 'LINE_NOTIFY_API_KEY'
-    subaccount = FtxClient('API_KEY','API_SECRET','SUBACCOUNT_NAME')
-    coinlist = ['BTC-PERP','ETH-PERP'] #套利幣種
+    LINE_API_KEY = 'pPVcfctmVO80igbaeHBjtbKZGHjng8YRQ2ThyMjaRK1'
+    subaccount = FtxClient('zxMsk43EKMiClx4TRZHLRreXJccjEqM3tU7KV5V4','qC7XYFLhNifxqBs6w4Pvn4iCy8J5a_IekQdZMGCt','03.BAO+CHZ 8794')
+    coinlist = ['BAO-PERP','CHZ-PERP'] #套利幣種
     
     total = 0
     account = subaccount.get_account()
